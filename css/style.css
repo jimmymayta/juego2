@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(
+      310deg,
+      rgba(179, 2, 2, 0.5),
+      rgba(0, 54, 134, 0.7)
+    ),
+    url("../images/abstract-polygon-background-110.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.margin {
+    max-width: 300px;
+}
