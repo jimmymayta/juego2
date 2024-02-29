@@ -15,41 +15,53 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container">
-      <h1 class="text-white text-center my-5">Pregunta</h1>
+      <h1 class="text-white text-center my-5 animate__animated animate__zoomIn">
+        Pregunta
+      </h1>
 
-      <div class="row my-3">
+      <div class="row my-4 animate__animated animate__zoomIn">
         <div
           id="button-left"
-          class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 text-start d-flex align-items-center"
+          class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 text-start d-flex align-items-center cursor-pointer"
         >
           <i class="bi bi-chevron-left text-white"></i>
         </div>
 
         <div
           id="text-question"
-          class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 text-center text-white h1 fw-bold"
-        >
-          ¿Cómo se llamaba la primera mujer que ha existido sobre la tierra?
-        </div>
+          class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 text-center text-white h1 fw-bold cursor-default"
+        ></div>
 
         <div
           id="button-right"
-          class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 text-end d-flex align-items-center"
+          class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 text-end d-flex align-items-center cursor-pointer"
         >
           <i class="bi bi-chevron-right text-white"></i>
         </div>
       </div>
 
-      <div class="row mb-2">
-        <div class="col text-center text-white h2">Eva</div>
+      <div class="row mb-2 animate__animated animate__zoomIn cursor-pointer">
+        <div id="button-response" class="text-white text-center">Respuesta</div>
       </div>
 
-      <div class="row mb-5">
-        <div class="col text-center text-white h4">Génesis 3:20</div>
+      <div class="row mb-2 cursor-default">
+        <div id="text-response-1" class="col text-center text-white h2">
+          Eva
+        </div>
+      </div>
+
+      <div class="row mb-5 cursor-default">
+        <div id="text-response-2" class="col text-center text-white h4">
+          Génesis 3:20
+        </div>
       </div>
     </div>
 
