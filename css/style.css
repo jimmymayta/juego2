@@ -10,7 +10,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
-.margin {
-    max-width: 300px;
+.container-fluid {
+  height: 100vh;
+}
+.height-100 {
+  height: 100%;
+  background-color: #f0f0f0;
+  overflow: auto;
 }
